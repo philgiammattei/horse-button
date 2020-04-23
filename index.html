@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+
+<audio id="myAudio">
+  <source src="im_a_horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+
+<button class="horse-button" onclick="playAudio()" type="button"><img class="horse"src="Weird-Horse-Messy-Mane.jpg.1000x0_q80_crop-smart.jpg"></button>
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.currentTime = .5;
+  x.play(); 
+} 
+
+</script>
+
+</body>
+</html>
